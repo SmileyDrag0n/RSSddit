@@ -5,6 +5,7 @@ This is a simple and minimalistic Rainmeter skin with Reddit RSS feed and some a
 **Username** - change to your Reddit username
 ### RSS
 **URL** - set this to your custom Reddit feed you wish to pull rss data from
+
 **Font** - changes feed font
 
 **EntrySpacing** - changes vertical spacing between entries
