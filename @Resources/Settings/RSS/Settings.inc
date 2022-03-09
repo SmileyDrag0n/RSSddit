@@ -5,7 +5,7 @@ URL=
 ;URL should look like: https://www.reddit.com/user/[your username]/m/[custom feed name].rss
 
 ;=== FONT CHOICE ===
-Font=1
+Font=8
 ;1 - Microsoft JhengHei UI
 ;2 - Century Gothic
 ;3 - Eras Medium ITC
