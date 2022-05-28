@@ -8,6 +8,10 @@ Username=
 URL=
 ;URL should look like this: https://www.reddit.com/user/[your username]/m/[custom feed name].rss
 
+;=== URL TO SINGLE-POST RSS ===
+URLSingle=https://www.reddit.com/search.rss?q=subreddit%3Awallpaper%20self%3A0&sort=new
+;Place an image-only rss feed url here
+
 ;=== FONT CHOICE ===
 Font=8
 ;1 - Microsoft JhengHei UI
