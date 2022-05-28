@@ -1,8 +1,12 @@
 [Variables]
 
+;=== USERNAME ===
+Username=
+;Enter your Reddit username
+
 ;=== URL TO CUSTOM REDDIT MULTIFEED ===
 URL=
-;URL should look like: https://www.reddit.com/user/[your username]/m/[custom feed name].rss
+;URL should look like this: https://www.reddit.com/user/[your username]/m/[custom feed name].rss
 
 ;=== FONT CHOICE ===
 Font=8
@@ -17,7 +21,7 @@ Font=8
 ;9 - Segoe UI
 ;10 - Comfortaa Light
 
-;=== FEED SPACING ===
+;=== FEED SETTINGS ===
 EntrySpacing=5
 LineSpacing=5
-;Values are specified in pixels
+;Spacing between objects, values are specified in pixels
