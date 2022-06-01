@@ -1,4 +1,4 @@
-# RSSddit
+# RSSddit ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/SmileyDrag0n/RSSddit?include_prereleases) ![GitHub issues by-label](https://img.shields.io/github/issues/SmileyDrag0n/RSSddit/bug)
 This is a simple and minimalistic Rainmeter skin with Reddit RSS feed and some add-ons
 
 Now supports scaling the skin with mouse scrolling!
