@@ -1,7 +1,7 @@
 # RSSddit
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/SmileyDrag0n/RSSddit?include_prereleases)](https://github.com/SmileyDrag0n/RSSddit/releases) [![GitHub issues by-label](https://img.shields.io/github/issues/SmileyDrag0n/RSSddit/bug)](https://github.com/SmileyDrag0n/RSSddit/issues) [![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/SmileyDrag0n/RSSddit/latest?include_prereleases)](https://github.com/SmileyDrag0n/RSSddit/commits)
 
-This is a simple and minimalistic Rainmeter skin with Reddit RSS feed and some add-ons
+This is a simple and minimalistic Rainmeter skin with Reddit RSS feed, Karma meter and some add-ons
 
 Now supports scaling the skin with mouse scrolling!
 ## Settings and variables
