@@ -3,7 +3,6 @@
 
 This is a simple and minimalistic Rainmeter skin with Reddit RSS feed, Karma meter and some add-ons
 
-Now supports scaling the skin with mouse scrolling!
 ## Settings and variables
 All settings can be accessed through each skin's context menu (Right-click on the skin -> Settings), or via new **user-friendly** GUI skin! It is loaded as a default skin when installing the suite.
 
