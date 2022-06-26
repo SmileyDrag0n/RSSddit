@@ -58,6 +58,7 @@ RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"ga
 StringIndex=1
 StringIndex2=4
 Substitute="":"Offline"
+DecodeCodePoints=1
 
 [MeasureId2]
 Measure=WebParser
@@ -90,6 +91,7 @@ RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"ga
 StringIndex=2
 StringIndex2=4
 Substitute="":"Offline"
+DecodeCodePoints=1
 
 [MeasureId3]
 Measure=WebParser
@@ -122,6 +124,7 @@ RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"ga
 StringIndex=3
 StringIndex2=4
 Substitute="":"Offline"
+DecodeCodePoints=1
 
 [MeasureId4]
 Measure=WebParser
@@ -154,6 +157,7 @@ RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"ga
 StringIndex=4
 StringIndex2=4
 Substitute="":"Offline"
+DecodeCodePoints=1
 
 [MeasureUser1]
 Measure=WebParser
