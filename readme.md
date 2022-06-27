@@ -58,4 +58,4 @@ All settings can be accessed through each skin's context menu (Right-click on th
 
 ## Special thanks
 
-- **@hiimkir** - senior tester
+**@hiimkir** - betatests
