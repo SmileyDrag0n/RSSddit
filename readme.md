@@ -13,6 +13,7 @@ This is a simple and minimalistic Rainmeter skin with Reddit RSS feed, Karma met
 - Twitch Live panel that shows top 4 active streamers from your follow list
 - Dark and light mode support through user actions in Rainmeter
 - All settings can be tweaked via one user-friendly settings skin by right-clicking on any skin and choosing **Settings**
+- Even more on the way!
 
 ## Installation
 
