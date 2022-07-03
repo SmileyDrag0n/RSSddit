@@ -8,6 +8,10 @@ Username=
 URL=
 ;URL should look like this: https://www.reddit.com/user/[your username]/m/[custom feed name].rss
 
+;=== TWITCH OAUTH TOKEN ===
+OAuth=
+;OAuth Twitch token, can be generated via Authorization skin
+
 ;=== URL TO SINGLE-POST RSS ===
 URLSingle=
 ;Place an image-only rss feed url here
