@@ -64,7 +64,6 @@ Written by [@hiimkir](https://github.com/hiimkir)
 - 'www.' is optional
 - Add 'old.' to your to rss url for your links to lead to classsic reddit (works vice versa too)
 - 'https://' is requred for rss to work
-- Feed must contain more than 4 posts (will be fixed soon)
 
 ### Non-private feeds
 
