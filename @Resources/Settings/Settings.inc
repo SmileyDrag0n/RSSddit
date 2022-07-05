@@ -7,7 +7,7 @@ Username=
 ;=== URL TO REDDIT RSS FEED ===
 URL=
 ;Any Reddit page (with posts + non-private) URL + .rss
-;refer to readme
+;Refer to readme for further details
 
 ;=== TWITCH OAUTH TOKEN ===
 OAuth=
