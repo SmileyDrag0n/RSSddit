@@ -63,21 +63,21 @@ Written by [@hiimkir](https://github.com/hiimkir)
 
 - 'www.' is optional
 - Add 'old.' to your to rss url for your links to lead to classsic reddit (works vice versa too)
-- 'https://' is requred for rss to work, but rainmeter could obviously work without it. go harass smiley about it if you want
-- Feed must contain more than 4 posts (not my fault either)
+- 'https://' is requred for rss to work
+- Feed must contain more than 4 posts (will be fixed soon)
 
 ### Non-private feeds
 
-- just add .rss to ***almost*** any reddit page url
-- doesn't matter if it's '.rss' or '/.rss' unless it's reddit.com
-- search results don't work for some reason
-- only **posts** will be displayed in widget, so no point in trying to use comment-only feeds though they're fully supported by reddit (again, go harass smiley)
-- **every** reddit page under theese criteria must work, if it doesn't then find me and punch me in my face (consider opening an issue before that)
+- Just add .rss to ***almost*** any reddit page url
+- Doesn't matter if it's '.rss' or '/.rss' unless it's reddit.com
+- Search results don't work for some reason
+- Only **posts** will be displayed in widget, so no point in trying to use comment-only feeds (will be fixed soon)
+- **Every** reddit page under this criteria must work, if it doesn't then find me and punch me in my face (consider opening an issue before that)
 - rpan, settings and wikis **obviously** don't work
 
 ### Private feeds
 
-- Check how to use [here](https://reddit.com/prefs/feeds/)
+- Obtainable [here](https://reddit.com/prefs/feeds/)
 
 ## Special thanks
 
