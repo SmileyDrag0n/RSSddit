@@ -57,6 +57,27 @@ All settings can be accessed through each skin's context menu (Right-click on th
 
 **LineSpacing** - changes sub name and title spacing from vertical line
 
+## Reddit RSS tips and tricks
+
+Written by [@hiimkir](https://github.com/hiimkir)
+
+- 'www.' is optional
+- Add 'old.' to your to rss url for your links to lead to classsic reddit (works vice versa too)
+- 'https://' is requred for rss to work
+
+### Non-private feeds
+
+- Just add .rss to ***almost*** any reddit page url
+- Doesn't matter if it's '.rss' or '/.rss' unless it's reddit.com
+- Search results don't work for some reason (will not be fixed)
+- Only **posts** will be displayed in widget, so no point in trying to use comment-only feeds (may be fixed)
+- **Every** reddit page under this criteria must work, if it doesn't then find me and punch me in my face (consider opening an issue before that)
+- rpan, settings and wikis **obviously** don't work
+
+### Private feeds
+
+- Obtainable [here](https://reddit.com/prefs/feeds/)
+
 ## Special thanks
 
-**@hiimkir** - betatests
+**[@hiimkir](https://github.com/hiimkir)** - sigmatester
