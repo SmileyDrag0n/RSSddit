@@ -70,8 +70,8 @@ Written by [@hiimkir](https://github.com/hiimkir)
 
 - Just add .rss to ***almost*** any reddit page url
 - Doesn't matter if it's '.rss' or '/.rss' unless it's reddit.com
-- Search results don't work for some reason
-- Only **posts** will be displayed in widget, so no point in trying to use comment-only feeds (will be fixed soon)
+- Search results don't work for some reason (will not be fixed)
+- Only **posts** will be displayed in widget, so no point in trying to use comment-only feeds (may be fixed)
 - **Every** reddit page under this criteria must work, if it doesn't then find me and punch me in my face (consider opening an issue before that)
 - rpan, settings and wikis **obviously** don't work
 
