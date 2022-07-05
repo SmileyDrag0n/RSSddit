@@ -4,18 +4,19 @@
 Username=
 ;Enter your Reddit username
 
-;=== URL TO CUSTOM REDDIT MULTIFEED ===
+;=== URL TO REDDIT RSS FEED ===
 URL=
-;URL should look like this: https://www.reddit.com/user/[your username]/m/[custom feed name].rss
+;Any Reddit page (with posts + non-private) URL + .rss
+;refer to readme
 
 ;=== TWITCH OAUTH TOKEN ===
 OAuth=
 ;OAuth Twitch token, can be generated via Authorization skin
 
-;=== URL TO SINGLE-POST RSS ===
+;=== URL TO IMAGE-BASED RSS ===
 URLSingle=
 ;Place an image-only rss feed url here
-;Single RSS is curently in developement 
+;Single RSS is in developement hell
 
 ;=== FONT CHOICE ===
 Font=8
