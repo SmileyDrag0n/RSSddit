@@ -57,6 +57,27 @@ All settings can be accessed through each skin's context menu (Right-click on th
 
 **LineSpacing** - changes sub name and title spacing from vertical line
 
+## Reddit RSS tips+tricks
+by [@hiimkir](https://github.com/hiimkir)
+
+- 'www.' is optional
+- add 'old.' to your to rss url for your links to lead to classsic reddit (works vice versa too)
+- 'https://' is requred for rss to work, but rainmeter could obviously work without it. go harass smiley about it if you want
+- feed must contain more than 4 posts (not my fault either)
+
+### anything non-private
+
+- just add .rss to ***almost*** any reddit page url
+- doesn't matter if it's '.rss' or '/.rss' unless it's reddit.com
+- search results don't work for some reason
+- only **posts** will be displayed in widget, so no point in trying to use comment-only feeds though they're fully supported by reddit (again, go harass smiley)
+- **every** reddit page under theese criteria must work, if it doesn't then find me and punch me in my face (consider opening an issue before that)
+- rpan, settings and wikis **obviously** don't work
+
+### private pages
+
+- go [here](https://reddit.com/prefs/feeds/)
+
 ## Special thanks
 
-**@hiimkir** - betatests
+**[@hiimkir](https://github.com/hiimkir)** - sigmatester
