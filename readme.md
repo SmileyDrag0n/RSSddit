@@ -71,7 +71,7 @@ Written by [@hiimkir](https://github.com/hiimkir)
 - Doesn't matter if it's '.rss' or '/.rss' unless it's reddit.com
 - Search results don't work for some reason ([#23](https://github.com/SmileyDrag0n/RSSddit/issues/23))
 - Only **posts** will be displayed in widget, so no point in trying to use comment-only feeds (may be fixed)
-- **Every** reddit page under this criteria should work, if it doesn't then consider [creating an issue](https://github.com/SmileyDrag0n/RSSddit)
+- **Every** reddit page under this criteria should work, if it doesn't then consider [creating an issue](https://github.com/SmileyDrag0n/RSSddit/issues)
 - r/pan, settings and wikis **obviously** don't work
 
 ### Private feeds
