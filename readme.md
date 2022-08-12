@@ -30,10 +30,10 @@ This is a simple and minimalistic Rainmeter skin with Reddit RSS feed, Karma met
 - After authorization, you will be redirected to unresponding localhost. **This is completely normal.** Copy your newly generated token after *&access_token=* from the URL field of your browser, it should look like this:
 
 ```url
-localost:3000/#access_token=COPYME&scope=user...
+localost:3000/&access_token=COPYME&scope=user...
 ```
 
-- Paste the token into corresponding field in the skin and **press enter**
+- Paste the token (COPYME in the example above) into corresponding field in the skin and **press enter**
 - Click **Log in**
 - If you've done everything correctly, Twitch Live panel will now show active streamers
 
