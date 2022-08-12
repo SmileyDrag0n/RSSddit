@@ -29,16 +29,15 @@ FinishAction=[!EnableMeasureGroup MeasureUser]
 [MeasureId1]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=1
 StringIndex2=1
 Substitute="":"Offline"
-; TODO Convert RegExp to variable for cleaner look
 
 [MeasureLogin1]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=1
 StringIndex2=2
 Substitute="":"Offline"
@@ -46,7 +45,7 @@ Substitute="":"Offline"
 [MeasureDisplayName1]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=1
 StringIndex2=3
 Substitute="":"Offline"
@@ -54,7 +53,7 @@ Substitute="":"Offline"
 [MeasureGame1]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=1
 StringIndex2=4
 Substitute="":"Offline"
@@ -63,7 +62,7 @@ DecodeCodePoints=1
 [MeasureId2]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=2
 StringIndex2=1
 Substitute="":"Offline"
@@ -71,7 +70,7 @@ Substitute="":"Offline"
 [MeasureLogin2]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=2
 StringIndex2=2
 Substitute="":"Offline"
@@ -79,7 +78,7 @@ Substitute="":"Offline"
 [MeasureDisplayName2]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=2
 StringIndex2=3
 Substitute="":"Offline"
@@ -87,7 +86,7 @@ Substitute="":"Offline"
 [MeasureGame2]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=2
 StringIndex2=4
 Substitute="":"Offline"
@@ -96,7 +95,7 @@ DecodeCodePoints=1
 [MeasureId3]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=3
 StringIndex2=1
 Substitute="":"Offline"
@@ -104,7 +103,7 @@ Substitute="":"Offline"
 [MeasureLogin3]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=3
 StringIndex2=2
 Substitute="":"Offline"
@@ -112,7 +111,7 @@ Substitute="":"Offline"
 [MeasureDisplayName3]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=3
 StringIndex2=3
 Substitute="":"Offline"
@@ -120,7 +119,7 @@ Substitute="":"Offline"
 [MeasureGame3]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=3
 StringIndex2=4
 Substitute="":"Offline"
@@ -129,7 +128,7 @@ DecodeCodePoints=1
 [MeasureId4]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=4
 StringIndex2=1
 Substitute="":"Offline"
@@ -137,7 +136,7 @@ Substitute="":"Offline"
 [MeasureLogin4]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=4
 StringIndex2=2
 Substitute="":"Offline"
@@ -145,7 +144,7 @@ Substitute="":"Offline"
 [MeasureDisplayName4]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=4
 StringIndex2=3
 Substitute="":"Offline"
@@ -153,7 +152,7 @@ Substitute="":"Offline"
 [MeasureGame4]
 Measure=WebParser
 URL=[MeasureStreams]
-RegExp=(?siU).*"user_id":"(.*)",.*"user_login":"(.*)",.*"user_name":"(.*)",.*"game_name":"(.*)",
+RegExp=#RegExpId#
 StringIndex=4
 StringIndex2=4
 Substitute="":"Offline"
@@ -165,7 +164,7 @@ Group=MeasureUser
 URL=https://api.twitch.tv/helix/users?id=[&MeasureId1]
 Header=Authorization: Bearer #OAuth#
 Header2=Client-Id: #ClientID#
-RegExp=(?siU).*"profile_image_url":"(.*)","offline_image_url":"(.*)",
+RegExp=#RegExpUser#
 ; 1-Profile image; 2-Offline image
 Debug=2
 Debug2File=UserData1.wpdbg
@@ -187,7 +186,7 @@ Group=MeasureUser
 URL=https://api.twitch.tv/helix/users?id=[&MeasureId2]
 Header=Authorization: Bearer #OAuth#
 Header2=Client-Id: #ClientID#
-RegExp=(?siU).*"profile_image_url":"(.*)","offline_image_url":"(.*)",
+RegExp=#RegExpUser#
 ; 1-Profile image; 2-Offline image
 Debug=2
 Debug2File=UserData2.wpdbg
@@ -209,7 +208,7 @@ Group=MeasureUser
 URL=https://api.twitch.tv/helix/users?id=[&MeasureId3]
 Header=Authorization: Bearer #OAuth#
 Header2=Client-Id: #ClientID#
-RegExp=(?siU).*"profile_image_url":"(.*)","offline_image_url":"(.*)",
+RegExp=#RegExpUser#
 ; 1-Profile image; 2-Offline image
 Debug=2
 Debug2File=UserData3.wpdbg
@@ -231,7 +230,7 @@ Group=MeasureUser
 URL=https://api.twitch.tv/helix/users?id=[&MeasureId4]
 Header=Authorization: Bearer #OAuth#
 Header2=Client-Id: #ClientID#
-RegExp=(?siU).*"profile_image_url":"(.*)","offline_image_url":"(.*)",
+RegExp=#RegExpUser#
 ; 1-Profile image; 2-Offline image
 Debug=2
 Debug2File=UserData4.wpdbg
