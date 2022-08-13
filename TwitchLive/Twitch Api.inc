@@ -4,8 +4,8 @@ URL=https://id.twitch.tv/oauth2/validate
 Header=Authorization: OAuth #OAuth#
 RegExp=(?siU).*"user_id":"(.*)",
 StringIndex=1
-Debug=2
-Debug2File=Valiadtion.wpdbg
+; Debug=2
+; Debug2File=Valiadtion.wpdbg
 FinishAction=[!EnableMeasure "MeasureStreams"]
 OnRegExpErrorAction=[!DeactivateConfig "RSSddit\TwitchLive" "TwitchLive.ini"][!ActivateConfig "RSSddit\TwitchLive" "Authorization.ini"]
 ; UpdateRate=1800
@@ -18,8 +18,8 @@ Header2=Client-Id: #ClientID#
 RegExp=(?siU)(?(?=.*{"id":).*\[{"(.*)})(?(?=.*{"id":).*{"(.*)})(?(?=.*{"id":).*{"(.*)})(?(?=.*{"id":).*{"(.*)})
 ; //]
 ; 1-Id; 2-Login; 3-DisplayName; 4-Game
-Debug=2
-Debug2File=StreamsData.wpdbg
+; Debug=2
+; Debug2File=StreamsData.wpdbg
 Disabled=1
 DynamicVariables=1
 FinishAction=[!EnableMeasureGroup MeasureUser]
@@ -166,8 +166,8 @@ Header=Authorization: Bearer #OAuth#
 Header2=Client-Id: #ClientID#
 RegExp=#RegExpUser#
 ; 1-Profile image; 2-Offline image
-Debug=2
-Debug2File=UserData1.wpdbg
+; Debug=2
+; Debug2File=UserData1.wpdbg
 DynamicVariables=1
 Disabled=1
 FinishAction=[!SetOption MeterPFP1 MeasureName "MeasureProfileImage1"][!SetOption MeterRing1 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot1][!SetOption MeterPFP1 Greyscale 0][!EnableMouseAction MeterBox1 LeftMouseUpAction]
@@ -188,8 +188,8 @@ Header=Authorization: Bearer #OAuth#
 Header2=Client-Id: #ClientID#
 RegExp=#RegExpUser#
 ; 1-Profile image; 2-Offline image
-Debug=2
-Debug2File=UserData2.wpdbg
+; Debug=2
+; Debug2File=UserData2.wpdbg
 DynamicVariables=1
 Disabled=1
 FinishAction=[!SetOption MeterPFP2 MeasureName "MeasureProfileImage2"][!SetOption MeterRing2 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot2][!SetOption MeterPFP2 Greyscale 0][!EnableMouseAction MeterBox2 LeftMouseUpAction]
@@ -210,8 +210,8 @@ Header=Authorization: Bearer #OAuth#
 Header2=Client-Id: #ClientID#
 RegExp=#RegExpUser#
 ; 1-Profile image; 2-Offline image
-Debug=2
-Debug2File=UserData3.wpdbg
+; Debug=2
+; Debug2File=UserData3.wpdbg
 DynamicVariables=1
 Disabled=1
 FinishAction=[!SetOption MeterPFP3 MeasureName "MeasureProfileImage3"][!SetOption MeterRing3 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot3][!SetOption MeterPFP3 Greyscale 0][!EnableMouseAction MeterBox3 LeftMouseUpAction]
@@ -232,8 +232,8 @@ Header=Authorization: Bearer #OAuth#
 Header2=Client-Id: #ClientID#
 RegExp=#RegExpUser#
 ; 1-Profile image; 2-Offline image
-Debug=2
-Debug2File=UserData4.wpdbg
+; Debug=2
+; Debug2File=UserData4.wpdbg
 DynamicVariables=1
 Disabled=1
 FinishAction=[!SetOption MeterPFP4 MeasureName "MeasureProfileImage4"][!SetOption MeterRing4 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot4][!SetOption MeterPFP4 Greyscale 0][!EnableMouseAction MeterBox4 LeftMouseUpAction]
