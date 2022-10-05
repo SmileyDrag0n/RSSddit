@@ -1,6 +1,6 @@
 <!-- # RSSddit
  -->
-![Title](img/header.jpg)
+![Title](img/header.png)
 
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-important)](https://github.com/SmileyDrag0n/RSSddit/blob/master/LICENSE) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/SmileyDrag0n/RSSddit?include_prereleases)](https://github.com/SmileyDrag0n/RSSddit/releases) [![GitHub issues by-label](https://img.shields.io/github/issues/SmileyDrag0n/RSSddit/bug)](https://github.com/SmileyDrag0n/RSSddit/issues?q=is%3Aissue+is%3Aopen+label%3Abug) [![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/SmileyDrag0n/RSSddit/latest?include_prereleases)](https://github.com/SmileyDrag0n/RSSddit/commits)
 
