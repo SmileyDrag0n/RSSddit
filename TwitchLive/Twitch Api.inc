@@ -6,8 +6,9 @@ RegExp=(?siU).*"user_id":"(.*)",
 StringIndex=1
 ; Debug=2
 ; Debug2File=Valiadtion.wpdbg
-FinishAction=[!EnableMeasure "MeasureStreams"]
+FinishAction=[!EnableMeasure "MeasureStreams"][!UpdateMeasure "MeasureStreams"]
 OnRegExpErrorAction=[!DeactivateConfig "RSSddit\TwitchLive" "TwitchLive.ini"][!ActivateConfig "RSSddit\TwitchLive" "Authorization.ini"]
+UpdateDivider=-1
 ; UpdateRate=1800
 
 [MeasureStreams]
@@ -22,8 +23,9 @@ RegExp=(?siU)(?(?=.*{"id":).*\[{"(.*)})(?(?=.*{"id":).*{"(.*)})(?(?=.*{"id":).*{
 ; Debug2File=StreamsData.wpdbg
 Disabled=1
 DynamicVariables=1
-FinishAction=[!EnableMeasureGroup MeasureUser]
+FinishAction=[!EnableMeasureGroup MeasureUser][!UpdateMeasureGroup MeasureUser]
 ; ! Data sometimes get messed up, maybe use [!UpdateMeasure]
+UpdateDivider=-1
 ; UpdateRate=1800
 
 [MeasureId1]
@@ -172,6 +174,7 @@ DynamicVariables=1
 Disabled=1
 FinishAction=[!SetOption MeterPFP1 MeasureName "MeasureProfileImage1"][!SetOption MeterRing1 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot1][!SetOption MeterPFP1 Greyscale 0][!EnableMouseAction MeterBox1 LeftMouseUpAction]
 OnRegExpErrorAction=[!SetOption MeterPFP1 MeasureName ""][!SetOption MeterRing1 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot1][!SetOption MeterPFP1 Greyscale 1][!DisableMouseAction MeterBox1 LeftMouseUpAction]
+UpdateDivider=-1
 ; UpdateRate=1800
 
 [MeasureProfileImage1]
@@ -194,6 +197,7 @@ DynamicVariables=1
 Disabled=1
 FinishAction=[!SetOption MeterPFP2 MeasureName "MeasureProfileImage2"][!SetOption MeterRing2 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot2][!SetOption MeterPFP2 Greyscale 0][!EnableMouseAction MeterBox2 LeftMouseUpAction]
 OnRegExpErrorAction=[!SetOption MeterPFP2 MeasureName ""][!SetOption MeterRing2 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot2][!SetOption MeterPFP2 Greyscale 1][!DisableMouseAction MeterBox2 LeftMouseUpAction]
+UpdateDivider=-1
 ; UpdateRate=1800
 
 [MeasureProfileImage2]
@@ -216,6 +220,7 @@ DynamicVariables=1
 Disabled=1
 FinishAction=[!SetOption MeterPFP3 MeasureName "MeasureProfileImage3"][!SetOption MeterRing3 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot3][!SetOption MeterPFP3 Greyscale 0][!EnableMouseAction MeterBox3 LeftMouseUpAction]
 OnRegExpErrorAction=[!SetOption MeterPFP3 MeasureName ""][!SetOption MeterRing3 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot3][!SetOption MeterPFP3 Greyscale 1][!DisableMouseAction MeterBox3 LeftMouseUpAction]
+UpdateDivider=-1
 ; UpdateRate=1800
 
 [MeasureProfileImage3]
@@ -238,6 +243,7 @@ DynamicVariables=1
 Disabled=1
 FinishAction=[!SetOption MeterPFP4 MeasureName "MeasureProfileImage4"][!SetOption MeterRing4 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot4][!SetOption MeterPFP4 Greyscale 0][!EnableMouseAction MeterBox4 LeftMouseUpAction]
 OnRegExpErrorAction=[!SetOption MeterPFP4 MeasureName ""][!SetOption MeterRing4 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot4][!SetOption MeterPFP4 Greyscale 1][!DisableMouseAction MeterBox4 LeftMouseUpAction]
+UpdateDivider=-1
 ; UpdateRate=1800
 
 [MeasureProfileImage4]
