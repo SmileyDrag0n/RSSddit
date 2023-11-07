@@ -170,8 +170,8 @@ RegExp=#RegExpUser#
 ; Debug2File=UserData1.wpdbg
 DynamicVariables=1
 Disabled=1
-FinishAction=[!SetOption MeterPFP1 MeasureName "MeasureProfileImage1"][!SetOption MeterRing1 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot1][!SetOption MeterPFP1 Greyscale 0][!EnableMouseAction MeterBox1 LeftMouseUpAction]
-OnRegExpErrorAction=[!SetOption MeterPFP1 MeasureName ""][!SetOption MeterRing1 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot1][!SetOption MeterPFP1 Greyscale 1][!DisableMouseAction MeterBox1 LeftMouseUpAction]
+FinishAction=[!SetOption MeterPFP1 MeasureName "MeasureProfileImage1"][!SetOption MeterRing1 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot1][!ShowMeter MeterStreamer1][!ShowMeter MeterGame1][!HideMeter MeterOfflineTag1][!SetOption MeterPFP1 Greyscale 0][!EnableMouseAction MeterBox1 LeftMouseUpAction]
+OnRegExpErrorAction=[!SetOption MeterPFP1 MeasureName ""][!SetOption MeterRing1 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot1][!HideMeter MeterStreamer1][!HideMeter MeterGame1][!ShowMeter MeterOfflineTag1][!SetOption MeterPFP1 Greyscale 1][!DisableMouseAction MeterBox1 LeftMouseUpAction]
 ; UpdateRate=1800
 
 [MeasureProfileImage1]
@@ -192,8 +192,8 @@ RegExp=#RegExpUser#
 ; Debug2File=UserData2.wpdbg
 DynamicVariables=1
 Disabled=1
-FinishAction=[!SetOption MeterPFP2 MeasureName "MeasureProfileImage2"][!SetOption MeterRing2 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot2][!SetOption MeterPFP2 Greyscale 0][!EnableMouseAction MeterBox2 LeftMouseUpAction]
-OnRegExpErrorAction=[!SetOption MeterPFP2 MeasureName ""][!SetOption MeterRing2 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot2][!SetOption MeterPFP2 Greyscale 1][!DisableMouseAction MeterBox2 LeftMouseUpAction]
+FinishAction=[!SetOption MeterPFP2 MeasureName "MeasureProfileImage2"][!SetOption MeterRing2 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot2][!ShowMeter MeterStreamer2][!ShowMeter MeterGame2][!HideMeter MeterOfflineTag2][!SetOption MeterPFP2 Greyscale 0][!EnableMouseAction MeterBox2 LeftMouseUpAction]
+OnRegExpErrorAction=[!SetOption MeterPFP2 MeasureName ""][!SetOption MeterRing2 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot2][!HideMeter MeterStreamer2][!HideMeter MeterGame2][!ShowMeter MeterOfflineTag2][!SetOption MeterPFP2 Greyscale 1][!DisableMouseAction MeterBox2 LeftMouseUpAction]
 ; UpdateRate=1800
 
 [MeasureProfileImage2]
@@ -214,8 +214,8 @@ RegExp=#RegExpUser#
 ; Debug2File=UserData3.wpdbg
 DynamicVariables=1
 Disabled=1
-FinishAction=[!SetOption MeterPFP3 MeasureName "MeasureProfileImage3"][!SetOption MeterRing3 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot3][!SetOption MeterPFP3 Greyscale 0][!EnableMouseAction MeterBox3 LeftMouseUpAction]
-OnRegExpErrorAction=[!SetOption MeterPFP3 MeasureName ""][!SetOption MeterRing3 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot3][!SetOption MeterPFP3 Greyscale 1][!DisableMouseAction MeterBox3 LeftMouseUpAction]
+FinishAction=[!SetOption MeterPFP3 MeasureName "MeasureProfileImage3"][!SetOption MeterRing3 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot3][!ShowMeter MeterStreamer3][!ShowMeter MeterGame3][!HideMeter MeterOfflineTag3][!SetOption MeterPFP3 Greyscale 0][!EnableMouseAction MeterBox3 LeftMouseUpAction]
+OnRegExpErrorAction=[!SetOption MeterPFP3 MeasureName ""][!SetOption MeterRing3 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot3][!HideMeter MeterStreamer3][!HideMeter MeterGame3][!ShowMeter MeterOfflineTag3][!SetOption MeterPFP3 Greyscale 1][!DisableMouseAction MeterBox3 LeftMouseUpAction]
 ; UpdateRate=1800
 
 [MeasureProfileImage3]
@@ -236,8 +236,8 @@ RegExp=#RegExpUser#
 ; Debug2File=UserData4.wpdbg
 DynamicVariables=1
 Disabled=1
-FinishAction=[!SetOption MeterPFP4 MeasureName "MeasureProfileImage4"][!SetOption MeterRing4 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot4][!SetOption MeterPFP4 Greyscale 0][!EnableMouseAction MeterBox4 LeftMouseUpAction]
-OnRegExpErrorAction=[!SetOption MeterPFP4 MeasureName ""][!SetOption MeterRing4 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot4][!SetOption MeterPFP4 Greyscale 1][!DisableMouseAction MeterBox4 LeftMouseUpAction]
+FinishAction=[!SetOption MeterPFP4 MeasureName "MeasureProfileImage4"][!SetOption MeterRing4 RingColour "Stroke Color #OnlineRing#"][!ShowMeter MeterDot4][!ShowMeter MeterStreamer4][!ShowMeter MeterGame4][!HideMeter MeterOfflineTag4][!SetOption MeterPFP4 Greyscale 0][!EnableMouseAction MeterBox4 LeftMouseUpAction]
+OnRegExpErrorAction=[!SetOption MeterPFP4 MeasureName ""][!SetOption MeterRing4 RingColour "Stroke Color #OfflineRing#"][!HideMeter MeterDot4][!HideMeter MeterStreamer4][!HideMeter MeterGame4][!ShowMeter MeterOfflineTag4][!SetOption MeterPFP4 Greyscale 1][!DisableMouseAction MeterBox4 LeftMouseUpAction]
 ; UpdateRate=1800
 
 [MeasureProfileImage4]
