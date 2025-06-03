@@ -62,21 +62,22 @@ All settings can be accessed through each skin's context menu (Right-click on th
 Written by [@hiimkir](https://github.com/hiimkir)
 
 - 'www.' in URL is optional
-- Add 'old.' to your to RSS URL for your links to lead to classsic reddit (works vice versa too)
+- Add 'old.' to your RSS URL for your links to open in classsic reddit
 - 'https://' is requred for rss to work
 
-### Non-private feeds
+### Public feeds
 
 - Just add .rss to ***almost*** any reddit page url
-- Doesn't matter if it's '.rss' or '/.rss' unless it's reddit.com
+- Doesn't matter if it's '.rss' or '/.rss' unless it's front page
 - Search results don't work for some reason ([#23](https://github.com/SmileyDrag0n/RSSddit/issues/23))
 - Only **posts** will be displayed in widget, so no point in trying to use comment-only feeds (may be fixed)
 - **Every** reddit page under this criteria should work, if it doesn't then consider [creating an issue](https://github.com/SmileyDrag0n/RSSddit/issues)
-- r/pan, settings and wikis **obviously** don't work
+- r/pan, settings and wikis **obviously** won't work
 
 ### Private feeds
 
 - Obtainable [here](https://reddit.com/prefs/feeds/)
+- Private subreddits and multifeeds won't work
 
 ## Special thanks
 
